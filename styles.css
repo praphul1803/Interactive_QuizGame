@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://static.vecteezy.com/system/resources/previews/008/889/844/non_2x/quiz-set-in-doodle-style-illustration-icon-question-symbol-for-print-and-design-quiz-and-exam-concept-isolated-element-on-black-background-collection-of-sign-for-school-and-event-vector.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  color: #ffffff;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 11, 14, 0.947);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f6b;
+}
+
+#score {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
